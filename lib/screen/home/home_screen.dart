@@ -16,7 +16,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     _listItem.add(UserModel(0,'Tran Quoc Khanh', 'Mobile Dev', null));
     _listItem.add(UserModel(1,'Tran The Khang', 'BE Dev', null));
     super.initState();
